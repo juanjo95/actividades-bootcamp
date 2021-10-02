@@ -1,0 +1,34 @@
+:root{
+    --color-blanco: #ffffff;
+    --color-negro: #000000;
+    --color-amarillo-fondo: #FFFC00;
+}
+
+body{
+    background-color: var(--color-amarillo-fondo);
+    font-family: 'Graphik','Helvetica Neue',Arial,Helvetica,sans-serif;
+}
+
+nav{
+    height: 50px;
+}
+
+.logo-img{
+    width: 6%;
+    transform: translateY(20px);
+}
+
+.menu-principal a{
+        color: rgb(38, 38, 38) !important;
+        font-weight: bold;
+        text-decoration: none;
+        line-height: 22px;
+        font-size: 14px;
+        letter-spacing: .05px;
+}
+
+
+/*
+h1{
+    font-family: Graphik-Semibold;
+}*/
