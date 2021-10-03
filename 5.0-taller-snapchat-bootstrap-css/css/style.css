@@ -46,15 +46,25 @@ video{
     transition: opacity 650ms cubic-bezier(0, 0, 0, 1);
 }
 
-h1{
-    font-family: Graphik-Semibold;
+.texto-principal{
+    font-size: 2.625rem;
     font-weight: bold;
 }
 
 h3{
-    font-family: Graphik-Semibold;
-    font-size: 16px;
-    line-height: 16px;
-    margin-bottom: 16px;
+    font-size: 1rem;
+    line-height: 1rem;
+    margin-bottom: 1rem;
     opacity: 0.7;
+    font-weight: 700;
+}
+
+.country-select{
+    background-color: var(--color-blanco);
+    border: none;
+    font-family: Graphik-Semibold;
+    margin-right: 10px;
+    outline: none;
+    font-weight: bolder;
+    padding: 0.6rem 0;
 }
