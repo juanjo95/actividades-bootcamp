@@ -4,31 +4,57 @@
     --color-amarillo-fondo: #FFFC00;
 }
 
-body{
-    background-color: var(--color-amarillo-fondo);
-    font-family: 'Graphik','Helvetica Neue',Arial,Helvetica,sans-serif;
+body {
+    font-family: 'Graphik', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    background-color: #fffc00;
 }
 
-nav{
-    height: 50px;
+.nav-snapchat {
+    height: 46px;
 }
 
-.logo-img{
-    width: 6%;
-    transform: translateY(20px);
+.size-fantasma {
+    width: 100px;
 }
 
-.menu-principal a{
-        color: rgb(38, 38, 38) !important;
-        font-weight: bold;
-        text-decoration: none;
-        line-height: 22px;
-        font-size: 14px;
-        letter-spacing: .05px;
+.size-fantasma img {
+    width: 64px;
+    height: 64px;
+    transform: translate(60px, 20px);
 }
 
+.links-nav-snapchat li a {
+    color: rgb(38, 38, 38) !important;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: .05px;
+    margin-right: 14px;
+    padding: 2px;
+}
 
-/*
+.links-nav-snapchat li a:hover {
+    text-decoration: underline;
+}
+
+.contenido-principal{
+    margin-top: 6%;
+}
+
+video{
+    max-width: 311px;
+    border-radius: 12px;
+    transition: opacity 650ms cubic-bezier(0, 0, 0, 1);
+}
+
 h1{
     font-family: Graphik-Semibold;
-}*/
+    font-weight: bold;
+}
+
+h3{
+    font-family: Graphik-Semibold;
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 16px;
+    opacity: 0.7;
+}
