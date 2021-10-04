@@ -38,7 +38,8 @@ body {
 
 .contenido-principal{
     margin-top: 6%;
-}
+    margin-bottom: 6%;
+} 
 
 video{
     max-width: 311px;
@@ -67,4 +68,27 @@ h3{
     outline: none;
     font-weight: bolder;
     padding: 0.6rem 0;
+}
+
+footer a{
+    font-size: 14px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+footer a:hover{
+    color: #000000;
+}
+
+footer h6{
+    font-weight: 500;
+}
+
+select{
+    border-radius: 5px;
+}
+
+select,
+option{
+    color:  rgba(0, 0, 0, 0.4);
 }
