@@ -24,7 +24,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav links-nav-snapchat">
-                    <li class="nav-item"><a class="nav-link" href="#">Descargar</a></li>
+                    <li class="nav-item"><a class="nav-link text-decoration-underline" href="#">Descargar</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Spotlight</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Historias</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Mapa</a></li>
@@ -58,18 +58,18 @@
                         <option value="AU">AU +61</option>
                         <option value="US" selected="selected">US +1</option>
                     </select>
-                    <div class="input-group w-50">
+                    <div class="input-group w-50 bt-send">
                         <input type="text" class="form-control" placeholder="Numero de telefono" aria-label="Recipient's username" aria-describedby="basic-addon2">
                         <button type="button" class="input-group-text" id="basic-addon2"> Enviar enlace </button>
                     </div>
                 </form>
-                <p>
-                    Al hacer clic en "Enviar enlace", declaro que leí la <span>Política de privacidad</span>  y que acepto las <span>Condiciones de servicio</span><br><br>
+                <p class="texto-poli-condi mt-2">
+                    Al hacer clic en "Enviar enlace", declaro que leí la <span><a href="#">Política de privacidad</a></span>  y que acepto las <span><a href="#">Condiciones de servicio</a></span><br><br>
                     Puede haber cargos por datos y mensajes.
                 </p>
                 <div class="d-flex justify-content-start w-50">
-                    <img src="media/img/google-play.svg" alt="">
-                    <img src="media/img/appstore.svg" alt="" class="ms-3">
+                    <a href="#"><img src="media/img/google-play.svg" alt=""></a>
+                    <a href="#"><img src="media/img/appstore.svg" alt="" class="ms-3"></a>
                 </div>
             </div>
         </div>
@@ -127,13 +127,14 @@
             </div>
         </div>
     </footer>
-    <div class="container-fluid d-flex justify-content-center bg-dark">
-        <div class="d-flex py-3 gap-3">
-            <a href="#">Política de privacidad</a>
-            <a href="#">Condiciones de servicio</a>
+    <div class="container-fluid bg-dark">
+        <div class="row d-flex py-3">
+            <div class="col-3 offset-2 d-flex gap-4 copy">
+                <a href="#">Política de privacidad</a>
+                <a href="#">Condiciones de servicio</a>
+            </div>
         </div>
     </div>
-
 
     <!-- BOOTSTRAP V5 JS -->
     <script src="js/bootstrap/bootstrap.min.js"></script>

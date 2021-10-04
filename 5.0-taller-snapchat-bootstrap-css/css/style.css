@@ -37,8 +37,8 @@ body {
 }
 
 .contenido-principal{
-    margin-top: 6%;
-    margin-bottom: 6%;
+    margin-top: 7%;
+    margin-bottom: 7%;
 } 
 
 video{
@@ -50,6 +50,41 @@ video{
 .texto-principal{
     font-size: 2.625rem;
     font-weight: bold;
+}
+
+.texto-poli-condi{
+    width: 65%;
+    font-size: 0.70rem;
+    line-height: 0.75rem;
+    opacity: 0.5;
+    font-weight: bolder;
+}
+
+.texto-poli-condi a{
+    text-decoration: none;
+}
+
+.bt-send input{
+    border: none;
+    border-radius: 0 0.313rem 0.313rem 0;
+    font-family: Graphik-Semibold;
+    font-size: 1.125rem;
+    line-height: normal;
+    text-align: center;
+    width: 12.75rem;
+    height: 2.625rem;
+}
+
+.bt-send button{
+    background-color: #000;
+    border-radius: 0 0.313rem 0.313rem 0;
+    color: #fff;
+    font-family: Graphik-Semibold;
+    font-size: 1.125rem;
+    line-height: 1.125rem;
+    text-align: center;
+    width: 8.125rem;
+    height: 2.625rem;
 }
 
 h3{
@@ -84,11 +119,17 @@ footer h6{
     font-weight: 500;
 }
 
-select{
+footer select{
     border-radius: 5px;
 }
 
-select,
-option{
+footer select,
+footer select option{
     color:  rgba(0, 0, 0, 0.4);
+}
+
+.copy a{
+    font-size: 14px;
+    color: var(--color-blanco);
+    text-decoration: none;
 }
