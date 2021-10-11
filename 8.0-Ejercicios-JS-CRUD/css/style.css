@@ -30,6 +30,11 @@ h2{
 }
 
 footer{
-    margin-top: 13.438rem;
+    margin-top: 14.438rem;
+}
+
+footer p {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
