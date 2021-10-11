@@ -175,7 +175,8 @@ function borrar_elemento(indice) {
                 'Eliminado!',
                 'Su producto ha sido eliminado.',
                 'success'
-            )
+            ) 
+            document.getElementById("formulario-principal").reset()
         }
     })
 }
