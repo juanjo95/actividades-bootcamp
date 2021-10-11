@@ -176,7 +176,11 @@ function borrar_elemento(indice) {
                 'Su producto ha sido eliminado.',
                 'success'
             ) 
+            
             document.getElementById("formulario-principal").reset()
+            let boton = document.getElementById("boton_formulario")
+            boton.setAttribute('onclick', `agregar_producto()`)
+            boton.innerHTML = `Agregar producto `
         }
     })
 }
