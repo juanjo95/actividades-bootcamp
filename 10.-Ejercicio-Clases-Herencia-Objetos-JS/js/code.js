@@ -36,11 +36,11 @@ class Vehiculo{
 }
 
 class Avion extends Vehiculo{
-    numeroAzadata = 0;
+    numeroAzafata = 0;
 
-    constructor(precio,gasolina,capacidad,matricula, numeroAzadata){
+    constructor(precio,gasolina,capacidad,matricula, numeroAzafata){
         super(precio,gasolina,capacidad,matricula);
-        this.numeroAzadata = numeroAzadata; 
+        this.numeroAzafata = numeroAzafata; 
     }
 
     setNumeroAzafatas(numero){
@@ -100,9 +100,7 @@ function pintar(){
             <li>Combustible: ${avion['tipoGasolina']}</li>
             <li>Capacidad: ${avion['capacidad']}</li>
             <li>Matricula: ${avion['matricula']}</li>
-            <li># Azafatas: ${avion['numeroAzadata']}</li>
-            <button class="btn btn-warning">Editar</button>
-            <button class="btn btn-danger">Eliminar</button>
+            <li># Azafatas: ${avion['numeroAzafata']}</li>
             <hr>`;
             });
             
