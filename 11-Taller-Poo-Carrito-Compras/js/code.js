@@ -235,7 +235,7 @@ function checkout(){
             </tr>
         `;
 
-        btn_pagar.innerHTML = `<button type="button" class="btn btn-success" onclick="pago_checkout()">Procesar pago</button>`;
+        btn_pagar.innerHTML = `<button type="button" class="btn boton" onclick="pago_checkout()">Procesar pago</button>`;
     
     }else{
         
@@ -247,7 +247,7 @@ function checkout(){
                 <div class="row">
                     <div class="col-sm-12 text-center mt-5">
                         <h2>No tienes productos en tu carrito de compras</h2>
-                        <button type="button" class="btn btn-success"><a href="productos.html" class="text-decoration-none text-white">Ir a productos</a></button>
+                        <button type="button" class="btn-suscripcion"><a href="productos.html" class="text-decoration-none text-white">Ir a productos</a></button>
                     </div>
                 </div>
             </div>
