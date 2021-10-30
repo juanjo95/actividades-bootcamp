@@ -91,7 +91,7 @@ if(document.getElementById("listado-productos")){
             <img src="${producto['imagen']}" alt="imagen-producto" class="w-100">
             <span>${producto['nombre']}</span><br>
             <small><strong>$${formato_decimal(producto['precio'])}</strong></small><br>
-            <button type="button "class="btn btn-primary" onclick="agregar_producto(${producto['id']})">Añadir al carro</button>
+            <button type="button "class="btn boton" onclick="agregar_producto(${producto['id']})">Añadir al carro <i class="fas fa-cart-plus"></i></button>
         </div>
         `
     }

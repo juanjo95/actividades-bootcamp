@@ -107,3 +107,18 @@ body{
 .seccion-tabla{
     min-height: 72vh;
 }
+
+/* CSS BLOG */
+.texto-blog{
+    text-align: justify;
+}
+
+/* CSS PRODUCTOS */
+.boton{
+    background-color: var(--color-subtitulos);
+    color: #fff;
+}
+.boton:hover{
+    background-color:  #fff;
+    color: var(--color-subtitulos);
+}

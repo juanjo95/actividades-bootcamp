@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-nav-foo">
+    <nav class="navbar navbar-expand-lg  bg-nav-foo">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
                 <img class="img-logo" src="img/logo.png" alt="imagen-logo-pet">
@@ -50,14 +50,49 @@
     </nav>
 
     <section>
-        <div class="container mt-4 text-center">
+        <div class="container mt-4">
             <div class="row">
                 <div class="col-sm-12">
-                    <h3 class="subtitulo fw-bold">Productos para el cuidado y bienestar de tus mascotas</h3>
+                    <h3 class="subtitulo fw-bold text-center mb-4">RESPONSABILIDAD SOCIAL</h3>
                 </div>
             </div>
-            <div class="row" id="listado-productos"></div>
-        </div>
+            <div class="row">
+                <div class="col-6 d-flex justify-content-center align-items-center">
+                    <img src="img/sello-responsabilidad-social.png" class="d-block w-50" alt="imagen-sello">
+                </div>
+                <div class="col-6 d-flex justify-content-center align-items-center texto-blog">
+                    <p>Pet shop es una marca que trabaja por el cuidado de las mascotas y la sana convivencia con sus dueños. <br><br>
+                    Gracias a esto en el 2019 recibimos por parte del Instituto de Protección Animal Alcaldía de Bogotá la distinción más alta, el reconocimiento Sello Zoolidario Categoría Oro. <br><br>
+                    Este reconocimiento nos fue otorgado por: <br><br>
+                    Promover y participar en jornadas de adopción, hacer donaciones a las fundaciones que forman la red de aliados del instituto y promover la educación en la tenencia responsable de las mascotas.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h5 class="subtitulo fw-bold mb-2">Contáctanos</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <form class="w-50">
+                        <div class="mb-3">
+                            <label for="nombreCompleto" class="form-label">Nombre completo</label>
+                            <input type="text" class="form-control" id="nombreCompleto" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo electronico</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+                            <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                            <label for="floatingTextarea2">Escribe aquí...</label>
+                        </div>
+                        <button class="btn-suscripcion"><a href="#" class="text-decoration-none text-white">Enviar <i class="fas fa-share"></i></a></button>
+                    </form>
+                </div>
+            </div>
+        </div>    
     </section>
 
     <footer class="container-fluid py-3 mt-4 border-top bg-nav-foo">
@@ -70,9 +105,11 @@
             </div>
 
             <div class="col-sm-12 col-md-6 d-flex justify-content-center align-items-center">
-                <a class="ms-3" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-2x twitter"></i></a>
+                <a class="ms-3" href="https://twitter.com/" target="_blank"><i
+                        class="fab fa-twitter fa-2x twitter"></i></a>
                 <a class="ms-3" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a class="ms-3" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook fa-2x facebook"></i></a>
+                <a class="ms-3" href="https://www.facebook.com/" target="_blank"><i
+                        class="fab fa-facebook fa-2x facebook"></i></a>
             </div>
         </div>
     </footer>

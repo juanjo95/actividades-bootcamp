@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Pet shop</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg  bg-nav-foo">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img class="img-logo" src="img/logo.png" alt="imagen-logo-pet">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="col-8 navbar-nav justify-content-around">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+                <ul class="col-4 navbar-nav justify-content-center">
+                    <a class="nav-link active text-white" aria-current="page" href="carro.html" onclick="checkout()">
+                        <i class="fas fa-shopping-cart"></i>
+                        $<span class="total">0</span>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/blog-1.png" class="d-block w-100" alt="imagen-blog-1">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/blog-2.png" class="d-block w-100" alt="imagen-blog-2">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/blog-3.png" class="d-block w-100" alt="imagen-blog-3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="subtitulo fw-bold text-center mb-4">Blog de Expertos</h3>
+                    <p class="text-center">Cuídalos con amor y acompáñalos en casa #CuídateEnFamilia</p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-sm-12 texto-blog">
+                    <h3 class="subtitulo fw-bold mb-4">Lavanda para relajar a tus mascotas: beneficios</h3>
+                    <p class="opacity-25">16 de Septiembre 2021</p>
+                    <img src="img/post-1.png" class="d-block w-100 rounded" alt="imagen-post-1">
+                    <p class="mt-3">Nos encanta ver a nuestras mascotas felices y su bienestar siempre es lo más
+                        importante, por esto realizamos muchísimas actividades para su cuidado, pero no debemos
+                        descuidar dos aspectos como lo son el descanso y su tranquilidad.
+                        Así como su alimentación, su actividad y sus cuidados son importantes, también podemos incluir
+                        en la rutina diaria de nuestra mascota espacios que le permitan tener un estado de relajación y
+                        calma en nuestro hogar.
+                    </p>
+                    <h4 class="subtitulo fw-bold mb-2">Aromas que ayudan a relajar a las mascotas</h4>
+                    <p>Existen aromas que pueden ser muy útiles para relajar a tu mascota y el aroma a lavanda es uno de
+                        ellos por sus componentes. Tiene una fragancia suave y delicada, por lo que es ideal para crear
+                        una atmósfera de relajación y dejar un agradable aroma en tu hogar.</p>
+
+                    <h4 class="subtitulo fw-bold mb-2">Propiedades del aceite de lavanda para las mascotas</h4>
+                    <p>El aceite de lavanda es reconocido por sus propiedades relajantes y calmantes, incluso para
+                        nuestras mascotas. Si deseas brindarle a tu peludito un espacio de bienestar y crear una
+                        atmósfera de relajación en tu hogar, el aceite de lavanda es perfecto para esta misión.</p>
+
+                    <h4 class="subtitulo fw-bold mb-2">Efectos del aceite de lavanda en las mascotas</h4>
+                    <p>Con el aceite de lavanda puedes lograr que tu mascota tenga un ambiente de calma y bienestar. Uno
+                        de los beneficios para tu peludito es que ayuda a disminuir sus niveles de estrés y facilitará
+                        la relajación.<br><br>
+                        Un segundo beneficio de este aceite esencial es que tu mascota podrá tener un mejor descanso.
+                        Puedes utilizar el aceite de lavanda para que tu mascota concilie con más facilidad el sueño o
+                        tenga un descanso sin interrupciones.</p>
+
+                    <h4 class="subtitulo fw-bold mb-2">¿Cómo relajar a tus mascotas?</h4>
+                    <p>Si te has preguntado cómo relajar a tu mascota en cualquier momento del día, la respuesta está en
+                        su rutina de limpieza. Este momento es un excelente punto de partida para que tu peludito tenga
+                        una atmósfera de relajación todos los días. Utiliza los Pañitos Húmedos Lavanda Relajante Petys
+                        para limpiar a tu mascota todos los días y brindarle un espacio de calma y bienestar.</p>
+
+                    <h4 class="subtitulo fw-bold mb-2">¿Cómo relajar a tu gato con la ayuda de la lavanda?</h4>
+                    <p>Si has notado que tu gato se encuentra un poco nervioso, el aceite de lavanda puede ayudarte a
+                        crear una atmósfera de relajación en tu hogar aplicando el Eliminador de Olores Lavanda
+                        Relajante Petys. <br><br>
+                        También puedes limpiar a tu mascota con los Pañitos Húmedos Lavanda Relajante Petys en cualquier
+                        momento del día para que tu gatito esté limpio y con un aroma suave.</p>
+
+                    <h4 class="subtitulo fw-bold mb-2">¿Cómo hacer que mi perro se relaje con la ayuda de la lavanda?
+                    </h4>
+                    <p>El aceite de lavanda puede ser muy útil para relajar a tu perro. Si notas que tu perro se
+                        encuentra un poco intranquilo, puedes esparcir el Eliminador de Olores Lavanda Relajante Petys
+                        en el espacio que compartes con el, pues el eliminador está enriquecido con aceite esencial de
+                        lavanda, ayudando a disminuir los niveles de ansiedad de tu peludo, además puedes complementarlo
+                        con un masaje relajante con los Pañitos Húmedos Lavanda Relajante Petys.</p>
+
+                    <h4 class="subtitulo fw-bold mb-2">Conoce nuestra nueva línea de productos con lavanda relajante
+                    </h4>
+                    <p>Pensando en el bienestar de tu mascota, Petys ha diseñado y desarrollado una nueva línea Lavanda
+                        Relajante con aceite esencial de lavanda que brinda una atmósfera relajante y libre de malos
+                        olores. Es ideal para brindarle a tu mascota un espacio de calma, bienestar y limpieza todos los
+                        días.</p>
+
+                    <h4 class="subtitulo fw-bold mb-2">Pañitos Húmedos con aceite de lavanda</h4>
+                    <p>Los Pañitos Húmedos Lavanda Relajante están enriquecidos con aceite esencial de lavanda y
+                        vitaminas E y D-Pantenol que limpian y desodorizan a tu mascota entre baño y baño, dejando su
+                        pelaje limpio y con un aroma fresco, suave y relajante. Recuerda en su rutina diaria limpiar el
+                        contorno de ojos, orejas, patas y pelaje.</p>
+
+                    <h4 class="subtitulo fw-bold mb-2">Eliminador de olores con esencia de lavanda</h4>
+                    <p>Mantén tu hogar libre de malos olores con el Eliminador de Olores Petys Lavanda Relajante. Tiene
+                        una agradable fragancia enriquecida con aceite esencial de lavanda que te brinda una atmósfera
+                        relajante y con un suave aroma. Está formulado para eliminar el 99,9% de los microorganismos que
+                        pueden causar malos olores en entornos propios de las mascotas. Aplícalo suavemente en el
+                        ambiente o sobre superficies y disfruta de una delicada fragancia a lavanda en todos los
+                        rincones de tu hogar.</p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-sm-12">
+                    <h5 class="subtitulo fw-bold mb-2">Comentarios</h5>
+                    <p>Para nosotros es muy importante tu opinión, recuerda ser moderado con el lenguaje ante los demás.
+                    </p>
+                    <form class="w-50">
+                        <div class="mb-3">
+                            <label for="nombreCompleto" class="form-label">Nombre completo</label>
+                            <input type="text" class="form-control" id="nombreCompleto" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo electronico</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+                            <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                            <label for="floatingTextarea2">Escribe aquí...</label>
+                        </div>
+                        <button class="btn-suscripcion"><a href="#" class="text-decoration-none text-white">Enviar <i class="fas fa-share"></i></a></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid py-3 mt-4 border-top bg-nav-foo">
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-sm-12 col-md-6 d-flex justify-content-center align-items-center">
+                <a href="/" class="d-none d-md-block">
+                    <img class="img-logo" src="img/logo.png" alt="imagen-logo-pet">
+                </a>
+                <span class="text-white">&copy; 2021 PetShop</span>
+            </div>
+
+            <div class="col-sm-12 col-md-6 d-flex justify-content-center align-items-center">
+                <a class="ms-3" href="https://twitter.com/" target="_blank"><i
+                        class="fab fa-twitter fa-2x twitter"></i></a>
+                <a class="ms-3" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a class="ms-3" href="https://www.facebook.com/" target="_blank"><i
+                        class="fab fa-facebook fa-2x facebook"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/code.js"></script>
+</body>
+
+</html>
