@@ -276,7 +276,7 @@ function eliminar_producto(id_producto){
 
             Swal.fire(
                 'Eliminado!',
-                'Su archivo ha sido eliminado.',
+                'Su producto ha sido eliminado.',
                 'success'
             )
         }
