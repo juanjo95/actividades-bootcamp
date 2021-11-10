@@ -13,7 +13,7 @@ class Pokemon {
 
     consumir_api(){
         this.api = fetch(this.url_api);
-        this.interactuar_api(1);
+        this.interactuar_api();
     }
 
     interactuar_api(){
@@ -21,7 +21,6 @@ class Pokemon {
         contenedor_pokemones.innerHTML = '';
         disabled_prev = '';
         disabled_next = '';
-
 
         this.api.then(res => res.json())
                 .then(data => {
